@@ -29,16 +29,8 @@ The scans are not in this repository. The ten simulated chambers the package run
 record <https://doi.org/10.5281/zenodo.22878186> (13 files, 5.0 GB, MIT). That DOI always resolves
 to the latest version of the record, at present <https://zenodo.org/records/22878187>.
 
-The record holds its thirteen files flat, while the package expects the reconstructions in a
-`sinograms` subdirectory. Download them into `data/baseline` and move the ten `.hdf5` files:
-
-```bash
-mkdir -p data/baseline/sinograms
-# download the files of the record into data/baseline, then
-mv data/baseline/chamber_*_recon_sino.hdf5 data/baseline/sinograms/
-```
-
-giving
+The record holds its thirteen files flat; the package expects the ten reconstructions in a
+`sinograms` subdirectory:
 
 ```
 data/baseline/config.json
@@ -46,6 +38,7 @@ data/baseline/stats.json
 data/baseline/sinograms/chamber_0_recon_sino.hdf5 ... chamber_9_recon_sino.hdf5
 ```
 
+Download them straight into those directories, or into one and move the `.hdf5` files afterwards.
 Any other directory works; it is the argument of the commands below, which use `data/baseline`.
 
 ## Installation
