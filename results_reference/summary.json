@@ -1,0 +1,191 @@
+{
+ "n_chambers": 10,
+ "n_failed": 0,
+ "n_success": 10,
+ "success_rule": "axis < 1.0 deg and translation < 1.0 mm",
+ "axis_error_deg": {
+  "median": 0.005753659544215215,
+  "mean": 0.012414295166659489,
+  "sd": 0.015832010278265713,
+  "min": 0.0016362914394637126,
+  "max": 0.052708970066499945
+ },
+ "tilt_error_deg": {
+  "median": 0.002918102537382783,
+  "mean": 0.007671257012659272,
+  "sd": 0.015940596214069506,
+  "min": 0.00020341633907072776,
+  "max": 0.0526702540933055
+ },
+ "orientation_error_deg": {
+  "median": 0.019702269595939015,
+  "mean": 0.04125183649518362,
+  "sd": 0.056090123234006424,
+  "min": 0.0006926635041963891,
+  "max": 0.16072497641039263
+ },
+ "translation_error_mm": {
+  "median": 0.008470151766390308,
+  "mean": 0.009948014809503778,
+  "sd": 0.0059248345831422675,
+  "min": 0.00397213026480192,
+  "max": 0.023901484710457558
+ },
+ "translation_axial_abs_mm": {
+  "median": 0.00843321065499844,
+  "mean": 0.008443146448724015,
+  "sd": 0.003688904512228755,
+  "min": 0.002238800921312125,
+  "max": 0.013658598192686236
+ },
+ "translation_perpendicular_mm": {
+  "median": 0.0006412540677814295,
+  "mean": 0.0030739777462972665,
+  "sd": 0.006461253835518817,
+  "min": 0.0002788975858588716,
+  "max": 0.021233415626143056
+ },
+ "iou_cavity": {
+  "median": 0.9993080101194027,
+  "mean": 0.9991474247903698,
+  "sd": 0.0006080146181037042,
+  "min": 0.9976321202365783,
+  "max": 0.9996452389388205
+ },
+ "iou_wall": {
+  "median": 0.9973879944554455,
+  "mean": 0.9969005199355117,
+  "sd": 0.0014940248163264143,
+  "min": 0.9940672122402779,
+  "max": 0.9984879711954736
+ },
+ "registration_time_s": {
+  "median": 68.26263535022736,
+  "mean": 57.79874279499054,
+  "sd": 22.191130528551632,
+  "min": 19.632667303085327,
+  "max": 77.02650713920593
+ },
+ "total_time_s": {
+  "median": 78.20975589752197,
+  "mean": 65.49249727725983,
+  "sd": 24.368238809382923,
+  "min": 23.631319999694824,
+  "max": 85.2884087562561
+ },
+ "chambers": [
+  {
+   "chamber": "chamber_0",
+   "axis_error_deg": 0.016718300186335265,
+   "translation_error_mm": 0.010591269838953431,
+   "translation_axial_mm": 0.010562856864974485,
+   "translation_perpendicular_mm": 0.0007752752102228251,
+   "iou_cavity": 0.9989668915834576,
+   "iou_wall": 0.9963719413314335,
+   "success": true,
+   "error": null
+  },
+  {
+   "chamber": "chamber_1",
+   "axis_error_deg": 0.0052267915257395645,
+   "translation_error_mm": 0.012681383367521759,
+   "translation_axial_mm": 0.012678316144136004,
+   "translation_perpendicular_mm": 0.0002788975858588716,
+   "iou_cavity": 0.9992594672557049,
+   "iou_wall": 0.9974157663837065,
+   "success": true,
+   "error": null
+  },
+  {
+   "chamber": "chamber_2",
+   "axis_error_deg": 0.004235194322741301,
+   "translation_error_mm": 0.006697958979154739,
+   "translation_axial_mm": 0.006630584849623655,
+   "translation_perpendicular_mm": 0.0009476281118565629,
+   "iou_cavity": 0.999603568729117,
+   "iou_wall": 0.9984879711954736,
+   "success": true,
+   "error": null
+  },
+  {
+   "chamber": "chamber_3",
+   "axis_error_deg": 0.024218336796814323,
+   "translation_error_mm": 0.0051306538615983385,
+   "translation_axial_mm": -0.0051055189556973475,
+   "translation_perpendicular_mm": 0.000507232925340034,
+   "iou_cavity": 0.9994459356650248,
+   "iou_wall": 0.9974730572979121,
+   "success": true,
+   "error": null
+  },
+  {
+   "chamber": "chamber_4",
+   "axis_error_deg": 0.0016362914394637126,
+   "translation_error_mm": 0.013886064524709743,
+   "translation_axial_mm": 0.013658598192686236,
+   "translation_perpendicular_mm": 0.0025030947635178886,
+   "iou_cavity": 0.9993565529831006,
+   "iou_wall": 0.9965186894866433,
+   "success": true,
+   "error": null
+  },
+  {
+   "chamber": "chamber_5",
+   "axis_error_deg": 0.002013415310429066,
+   "translation_error_mm": 0.00397213026480192,
+   "translation_axial_mm": 0.002238800921312125,
+   "translation_perpendicular_mm": 0.003281095743084518,
+   "iou_cavity": 0.9996396759496115,
+   "iou_wall": 0.9982370030485156,
+   "success": true,
+   "error": null
+  },
+  {
+   "chamber": "chamber_6",
+   "axis_error_deg": 0.005797020141532332,
+   "translation_error_mm": 0.023901484710457558,
+   "translation_axial_mm": 0.0109737428533614,
+   "translation_perpendicular_mm": 0.021233415626143056,
+   "iou_cavity": 0.9976321202365783,
+   "iou_wall": 0.9940672122402779,
+   "success": true,
+   "error": null
+  },
+  {
+   "chamber": "chamber_7",
+   "axis_error_deg": 0.052708970066499945,
+   "translation_error_mm": 0.006231548256366172,
+   "translation_axial_mm": 0.006212597653168298,
+   "translation_perpendicular_mm": 0.0004856172065197417,
+   "iou_cavity": 0.9987546340465777,
+   "iou_wall": 0.994767402616576,
+   "success": true,
+   "error": null
+  },
+  {
+   "chamber": "chamber_8",
+   "axis_error_deg": 0.005878332930141279,
+   "translation_error_mm": 0.0061453097378482355,
+   "translation_axial_mm": 0.006134611591907382,
+   "translation_perpendicular_mm": 0.0003624532942710345,
+   "iou_cavity": 0.9996452389388205,
+   "iou_wall": 0.9983059332273923,
+   "success": true,
+   "error": null
+  },
+  {
+   "chamber": "chamber_9",
+   "axis_error_deg": 0.005710298946898098,
+   "translation_error_mm": 0.010242344553625878,
+   "translation_axial_mm": 0.010235836460373222,
+   "translation_perpendicular_mm": 0.00036506699615813357,
+   "iou_cavity": 0.9991701625157049,
+   "iou_wall": 0.9973602225271844,
+   "success": true,
+   "error": null
+  }
+ ],
+ "wall_time_s": 85.41391015052795,
+ "jobs": 10,
+ "threads": 12
+}

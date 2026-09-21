@@ -1,0 +1,6 @@
+# Versions the results in README.md were produced with (Python 3.10.12, Linux x86_64)
+numpy==1.26.4
+scipy==1.15.3
+h5py==3.16.0
+hdf5plugin==7.1.0
+opencv-python-headless==4.10.0.84

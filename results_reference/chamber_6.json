@@ -1,0 +1,133 @@
+{
+ "chamber": "chamber_6",
+ "voxel_mm": 0.2,
+ "shape": [
+  512,
+  512,
+  512
+ ],
+ "roi": [
+  [
+   0,
+   512
+  ],
+  [
+   0,
+   512
+  ],
+  [
+   0,
+   512
+  ]
+ ],
+ "materials": {
+  "wall": 7,
+  "neck": 9,
+  "electrode": 8,
+  "cable": 15,
+  "cable_cover": 6,
+  "stem": 16,
+  "liquid_bot": 4,
+  "liquid_top": 3
+ },
+ "parameters": {
+  "body_rad": 20.429263305874176,
+  "body_height": 20.929227970230528,
+  "neck_rad": 9.992629684899015,
+  "neck_height": 12.042243728809694,
+  "neck_offset": [
+   0.0,
+   0.0
+  ],
+  "thickness": 4.32037623564219,
+  "electrode": false,
+  "electrode_ratio": 0.7493877041994398,
+  "electrode_rad": 2.8371067618062176,
+  "electrode_flat": false,
+  "top_kind": 1
+ },
+ "cavity_volume_mm3": 27441.540827032615,
+ "levels": {
+  "air": 8.196418639272451e-05,
+  "material": 0.0035309409722685814,
+  "contrast": 0.003448976785875857
+ },
+ "axis_error_deg": 0.005797020141532332,
+ "tilt_error_deg": 0.005011313101082493,
+ "orientation_error_deg": 0.011491331347372125,
+ "tilt_deg": 14.692808376839293,
+ "orientation_deg": 98.34994516672475,
+ "translation_error_mm": 0.023901484710457558,
+ "translation_axial_mm": 0.0109737428533614,
+ "translation_perpendicular_mm": 0.021233415626143056,
+ "iou_cavity": 0.9976321202365783,
+ "iou_wall": 0.9940672122402779,
+ "iou_cavity_vs_simulator": 0.9975546127743744,
+ "iou_cavity_ceiling": 0.9996160638645839,
+ "axis": [
+  0.9672995962198127,
+  0.25094787894079584,
+  -0.0368327735597388
+ ],
+ "axis_true": [
+  0.967321776563716,
+  0.2508715507381479,
+  -0.036770172910300956
+ ],
+ "position_idx": [
+  207.54681584796333,
+  255.99282237466565,
+  255.5031183316561
+ ],
+ "position_true_idx": [
+  207.5139934223832,
+  255.9127482666204,
+  255.58553707881902
+ ],
+ "stage1": {
+  "slicing_axis": 0,
+  "slab": [
+   148,
+   334
+  ],
+  "tau_fraction": 0.25,
+  "probe_slices_ok": 3,
+  "slice_range": [
+   184,
+   226
+  ],
+  "n_slices": 37,
+  "n_centres": 148,
+  "inlier_fraction": 1.0,
+  "tilt_deg": 14.692808376839219
+ },
+ "stage2": {
+  "sign": 1,
+  "search_reach_mm": 18.645923967341204,
+  "lam_coarse_mm": 0.3541,
+  "lam_mm": 0.2179886744928315,
+  "perp_mm": [
+   -0.014367656097899615,
+   0.016602161546573138
+  ],
+  "axial_window_mm": [
+   -0.6459,
+   1.3541
+  ],
+  "perp_grid_centre_mm": [
+   0.0,
+   0.0
+  ],
+  "axial_recentrings": 0,
+  "perp_recentrings": 0
+ },
+ "success": true,
+ "time": {
+  "segmentation_s": 5.242018699645996,
+  "stage1_s": 8.72318410873413,
+  "stage2_s": 56.87753891944885,
+  "evaluation_s": 9.066829919815063,
+  "registration_s": 70.84274172782898,
+  "total_s": 79.90957856178284
+ }
+}
